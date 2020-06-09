@@ -1,10 +1,8 @@
-
-//200 den devam
-let colors = generateRandomColor(6);
+let numberofSquares = 6;
+let colors = generateRandomColor(numberofSquares);
 let pickedColor = pickColor();
 const colorDisplay = document.getElementById('colorDisplay')
 const squares = document.querySelectorAll('.square');
-colorDisplay.textContent = pickedColor;
 const messageDisplay = document.querySelector('#message');
 const h1 = document.querySelector('h1');
 const easyButton = document.querySelector('#easyButton');
@@ -13,9 +11,40 @@ const resetButton = document.querySelector('#reset');
 
 hardButton.classList.add('selected')
 
+easyButton.addEventListener('click', function() {
+    hardButton.classList.remove('selected')
+    easyButton.classList.add('selected')
+    numberofSquares = 3;
+    colors = generateRandomColor(numberofSquares);
+    pickedColor = pickColor();
+    colorDisplay.textContent = pickedColor;
+    for (let i = 0; i < squares.length; i++) {
+        if(colors[i]){
+            squares[i].style.backgroundColor = colors[i]
+        }else {
+            squares[i].style.display = 'none'
+        }
+        
+    }
+});
+
+    hardButton.addEventListener('click', function() {
+    hardButton.classList.add('selected')
+    easyButton.classList.remove('selected')
+    numberofSquares = 6;
+    colors = generateRandomColor(numberofSquares);
+    pickedColor = pickColor();
+    colorDisplay.textContent = pickedColor;
+    for (let i = 0; i < squares.length; i++) {
+        squares[i].style.backgroundColor = colors[i]
+        squares[i].style.display = 'block'
+    }
+});
+
+
 resetButton.addEventListener('click', function() {
     //generate all new colors
-    generateRandomColor(6);
+    generateRandomColor(numberofSquares);
     //pick a new random colr from array
     pickedColor = pickColor();
     //change colorDisplay to match picked color
@@ -73,17 +102,4 @@ function randomColor() {
 }
 
 console.log(randomColor())
-
-hardButton.addEventListener('click', function() {
-    hardButton.classList.add('selected')
-    easyButton.classList.remove('selected')
-    generateRandomColor(6);
-    pickColor();
-});
-easyButton.addEventListener('click', function() {
-    hardButton.classList.remove('selected')
-    easyButton.classList.add('selected')
-    generateRandomColor(6);
-    pickColor();
-});
 
