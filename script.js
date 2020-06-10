@@ -1,3 +1,4 @@
+//204!!!
 let numberofSquares = 6;
 let colors = generateRandomColor(numberofSquares);
 let pickedColor = pickColor();
@@ -6,11 +7,17 @@ const squares = document.querySelectorAll('.square');
 const messageDisplay = document.querySelector('#message');
 const h1 = document.querySelector('h1');
 const easyButton = document.querySelector('#easyButton');
-const hardButton = document.querySelector('#hardButton');
-const resetButton = document.querySelector('#reset');
-
-hardButton.classList.add('selected')
-
+const modeButtons = document.querySelectorAll('.mode');
+for (let i = 0; i < modeButtons.length; i++) {
+    modeButtons[i].addEventListener('click', function {
+        modeButtons[0].classList.remove = 
+        this.classList.add ='selected';
+    })
+    
+}
+// const hardButton = document.querySelector('#hardButton');
+// const resetButton = document.querySelector('#reset');
+//hardButton.classList.add('selected')
 easyButton.addEventListener('click', function() {
     hardButton.classList.remove('selected')
     easyButton.classList.add('selected')
@@ -24,11 +31,9 @@ easyButton.addEventListener('click', function() {
         }else {
             squares[i].style.display = 'none'
         }
-        
     }
 });
-
-    hardButton.addEventListener('click', function() {
+hardButton.addEventListener('click', function() {
     hardButton.classList.add('selected')
     easyButton.classList.remove('selected')
     numberofSquares = 6;
@@ -41,10 +46,9 @@ easyButton.addEventListener('click', function() {
     }
 });
 
-
 resetButton.addEventListener('click', function() {
     //generate all new colors
-    generateRandomColor(numberofSquares);
+    colors = generateRandomColor(numberofSquares);
     //pick a new random colr from array
     pickedColor = pickColor();
     //change colorDisplay to match picked color
@@ -53,8 +57,9 @@ resetButton.addEventListener('click', function() {
     for (let i = 0; i < squares.length; i++) {
         squares[i].style.backgroundColor = colors[i];
     }
-    h1.style.backgroundColor = "#232323";
+    h1.style.backgroundColor = "steelblue";
     messageDisplay.textContent ="";
+    this.textContent = "New Colors"
 
     
 })
