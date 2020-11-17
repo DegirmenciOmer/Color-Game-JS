@@ -18,6 +18,8 @@
 
 ## Technologies
 
+- HTML
+- CSS
 - Javascript
 
 # Clone this repository
