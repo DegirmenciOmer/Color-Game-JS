@@ -1,20 +1,20 @@
 # Color-Game-JS
 
-> :dollar: Create a color game using DOM Manipulation of JavaScript. Working site : https://colorgamebyomer.netlify.app :euro:
+- Create a color game using DOM Manipulation of JavaScript.
+- Working site : https://colorgamebyomer.netlify.app
 
 ## Table of contents
 
-- [Budget Calculator](#budget-calculator)
-  - [Table of contents](#table-of-contents)
-  - [General info](#general-info)
-  - [Technologies](#technologies)
-  - [Features](#features)
-  - [Screenshots](#screenshots)
+- [Table of contents](#table-of-contents)
+- [General info](#general-info)
+- [Technologies](#technologies)
+- [Features](#features)
+- [Screenshots](#screenshots)
 
 ## General info
 
 - This project is built to improve Javascript DOM Manipulation and CSS skills.
-- The original web app was created by Colt Steele https://www.udemy.com/the-web-developer-bootcamp)
+- The [original web app](https://www.udemy.com/the-web-developer-bootcamp) was created by Colt Steele
 
 ## Technologies
 
