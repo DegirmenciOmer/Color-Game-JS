@@ -36,7 +36,7 @@
 ![Example screenshot](https://i.postimg.cc/Jtq7dtBm/Screenshot-2020-11-17-222626.png)
 ![Example screenshot](https://i.postimg.cc/MvpZkxyB/Screenshot-2020-11-17-222724.png)
 
-# On mobile :
+## On mobile :
 
 ![Example screenshot](https://i.postimg.cc/BPs6PKL7/colormobile.jpg)
 ![Example screenshot](https://i.postimg.cc/8fHCRzLp/mobile.jpg)
