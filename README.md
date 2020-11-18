@@ -35,10 +35,10 @@
 
 ## Screenshots
 
-![Example screenshot](./assets/Hard.png)
-![Example screenshot](./assets/easy.png)
+![Example screenshot](./assets/Hard.png | width=48)
+![Example screenshot](./assets/easy.png | width=48)
 
 ## On mobile :
 
-![Example screenshot](./assets/mobile-hard.jpeg)
-![Example screenshot](./assets/mobile-easy.jpeg)
+![Example screenshot](./assets/mobile-hard.jpeg | width=48)
+![Example screenshot](./assets/mobile-easy.jpeg | width=48)
