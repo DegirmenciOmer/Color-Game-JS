@@ -34,12 +34,14 @@
 (Hint: Remember the first number indicates the amount of RED, the second number indicates the amount of GREEN, and the third number indicates the amount of BLUE.)
 
 ## Screenshots
-<img src="./assets/Hard.png" width="400" />\
+<img src="./assets/Hard.png" width="400" />
+<br/> 
 <img src="./assets/easy.png" width="400" />
 
 
 ## On mobile :
 
-<img src="./assets/mobile-hard.jpeg" width="100" /> \
+<img src="./assets/mobile-hard.jpeg" width="100" /> 
+<br/> 
 <img src="./assets/mobile-easy.jpeg" width="100" />
 
