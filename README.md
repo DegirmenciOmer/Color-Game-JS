@@ -34,9 +34,9 @@
 (Hint: Remember the first number indicates the amount of RED, the second number indicates the amount of GREEN, and the third number indicates the amount of BLUE.)
 
 ## Screenshots
-
-![Example screenshot](./assets/Hard.png | width=48)
-![Example screenshot](./assets/easy.png | width=48)
+<img src="./assets/Hard.png" width="300" />
+![Example screenshot](./assets/Hard.png)
+![Example screenshot](./assets/easy.png)
 
 ## On mobile :
 
