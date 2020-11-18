@@ -35,10 +35,10 @@
 
 ## Screenshots
 
-![Example screenshot](https://i.postimg.cc/Jtq7dtBm/Screenshot-2020-11-17-222626.png)
-![Example screenshot](https://i.postimg.cc/MvpZkxyB/Screenshot-2020-11-17-222724.png)
+![Example screenshot](./assets/Hard.png)
+![Example screenshot](./assets/easy.png)
 
 ## On mobile :
 
-![Example screenshot](https://i.postimg.cc/BPs6PKL7/colormobile.jpg)
-![Example screenshot](https://i.postimg.cc/8fHCRzLp/mobile.jpg)
+![Example screenshot](./assets/mobile-hard.jpeg)
+![Example screenshot](./assets/mobile-easy.jpeg)
