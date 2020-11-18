@@ -35,8 +35,8 @@
 
 ## Screenshots
 <img src="./assets/Hard.png" width="300" />
-![Example screenshot](./assets/Hard.png)
-![Example screenshot](./assets/easy.png)
+<img src="./assets/easy.png" width="300" />
+
 
 ## On mobile :
 
