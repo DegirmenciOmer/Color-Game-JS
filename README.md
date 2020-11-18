@@ -41,6 +41,6 @@
 
 ## On mobile :
 
-<img src="./assets/mobile-hard.jpeg" width="400" />
-<img src="./assets/mobile-easy.jpeg" width="400" />
+<img src="./assets/mobile-hard.jpeg" width="200" />
+<img src="./assets/mobile-easy.jpeg" width="200" />
 
